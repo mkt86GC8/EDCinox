@@ -1,0 +1,83 @@
+@media screen and (max-width: 640px) {
+    html {
+        font-size: 14px;
+    }
+
+    header {
+        padding: 10px 0;
+    }
+
+    header h1 {
+        margin: 10px 0;
+    }
+
+
+    #content {
+        width: 100%;
+    }
+
+
+
+
+}
+
+#content {
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+
+.card-cani {
+    flex-direction: column;
+    margin: 20px auto;
+    padding: 50px;
+    border-radius: 25px;
+    gap: 20px;
+}
+
+.card-cani span {
+    width: 100%;
+}
+
+.card-cani img {
+    width: 100%;
+}
+
+.card-cani span {
+    padding: 0;
+    text-align: center;
+
+}
+
+#card-funcoes ul {
+    width: 100%;
+    padding: 5px;
+    gap: 40px;
+    flex-direction: column;
+
+}
+
+#acesso {
+    width: 60%;
+}
+
+#acesso h1 {
+    width: 100%;
+}
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 800px) {
+    #main {
+        flex-direction: column;
+    }
+
+    #content {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+}
